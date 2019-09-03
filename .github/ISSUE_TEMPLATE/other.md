@@ -1,6 +1,6 @@
 ---
-name: Bug修复
-about: Something isn't working as expected
+name: 其他问题
+about: Not a question, feature-request, bug
 title: ''
 labels: ''
 assignees: ''

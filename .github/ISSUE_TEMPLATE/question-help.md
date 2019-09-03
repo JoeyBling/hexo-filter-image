@@ -1,6 +1,6 @@
 ---
-name: Bug修复
-about: Something isn't working as expected
+name: 问题/帮助
+about: I have a question, need help (e.g. Customize)
 title: ''
 labels: ''
 assignees: ''
