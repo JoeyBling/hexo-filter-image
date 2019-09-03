@@ -1,5 +1,12 @@
 # hexo-filter-image
 
+[![npm package](https://badge.fury.io/js/hexo-filter-image.svg?label=hexo-filter-image)](https://www.npmjs.com/package/hexo-filter-image)
+[![downloads-total](https://img.shields.io/npm/dt/hexo-filter-image.svg)](https://www.npmjs.com/package/hexo-filter-image)
+[![downloads-month](https://img.shields.io/npm/dm/hexo-filter-image.svg)](https://www.npmjs.com/package/hexo-filter-image)
+![star](https://img.shields.io/github/stars/JoeyBling/hexo-filter-image "star")
+![fork](https://img.shields.io/github/forks/JoeyBling/hexo-filter-image "fork")
+![GitHub Last Commit](https://img.shields.io/github/last-commit/JoeyBling/hexo-filter-image.svg?label=commits "GitHub Last Commit")
+![issues](https://img.shields.io/github/issues/JoeyBling/hexo-filter-image "issues")
 [![Author](https://img.shields.io/badge/Author-JoeyBling-red.svg "Author")](https://zhousiwei.gitee.io "Author")
 [![博客搭建交流群](https://img.shields.io/badge/QQ群-422625065-red.svg "博客搭建交流群")](https://jq.qq.com/?_wv=1027&k=58Ypj9z "博客搭建交流群")
 
