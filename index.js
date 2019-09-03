@@ -51,8 +51,8 @@ hexo.extend.filter.register('after_post_render', function (data) {
         // For windows style path, we replace '\' to '/'.
         var src = $(this).attr('src').replace('\\', '/');
         if (!(/http[s]*.*|\/\/.*/.test(src) ||
-            /^\s+\//.test(src) ||
-            /^\s*\/uploads|images\//.test(src))) {
+            /^\s+\//.test(src))) {
+          /* || /^\s*\/uploads|images\//.test(src) */
           $(this).attr('src', urlForHelper(src));
           if (config.log) {
             console.info && console.info("update link as:-->" + urlForHelper(src));
