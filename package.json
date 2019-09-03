@@ -1,0 +1,33 @@
+{
+  "name": "hexo-filter-image",
+  "version": "1.0.0",
+  "description": "自动为hexo中的图片映射绝对路径 | Automatically maps absolute paths to images in hexo",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeyBling/hexo-filter-image.git"
+  },
+  "bugs": "https://github.com/JoeyBling/hexo-filter-image/issues",
+  "homepage": "https://github.com/JoeyBling/hexo-filter-image",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo",
+    "plugin",
+    "image",
+    "asset",
+    "path",
+    "filter"
+  ],
+  "author": {
+    "name": "JoeyBling",
+    "email": "2434387555@qq.com",
+    "url": "https://zhousiwei.gitee.io"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "cheerio": "^0.19.0"
+  }
+}
