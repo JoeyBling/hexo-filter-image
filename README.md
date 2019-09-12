@@ -26,7 +26,7 @@ yarn add hexo-filter-image
 # or
 npm install hexo-filter-image --save
 ```
-> 由于本身Hexo带有缓存会导致插件第一次使用可能会出现无效果，请使用```Hexo clean```清除缓存后即可正常使用
+> 由于本身Hexo带有缓存会导致插件第一次使用可能会出现无效果，请使用```hexo clean```清除缓存后即可正常使用
 
 ------------
 
