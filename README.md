@@ -1,5 +1,7 @@
 # hexo-filter-image
 
+![](https://nodei.co/npm/hexo-filter-image.png?downloads=true&downloadRank=true&stars=true)
+
 [![npm package](https://badge.fury.io/js/hexo-filter-image.svg?label=hexo-filter-image)](https://www.npmjs.com/package/hexo-filter-image)
 [![downloads-total](https://img.shields.io/npm/dt/hexo-filter-image.svg)](https://www.npmjs.com/package/hexo-filter-image)
 [![downloads-month](https://img.shields.io/npm/dm/hexo-filter-image.svg)](https://www.npmjs.com/package/hexo-filter-image)

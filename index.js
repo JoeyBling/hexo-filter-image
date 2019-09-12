@@ -5,7 +5,8 @@ const _ = require('lodash');
 const cheerio = require('cheerio');
 
 // 项目访问上下文路径
-const blogRoot = hexo.config.root || '/';
+var blogRoot = hexo.config.root || '/';
+blogRoot = blogRoot.endsWith("/") ? blogRoot : blogRoot + '/';
 
 /** 默认配置 */
 const defaultConfig = {
@@ -22,10 +23,11 @@ function urlForHelper(path = '/') {
     return path;
   }
 
-  // Prepend root path
+  // Prepend path
   path = blogRoot + path;
 
-  return path.replace(/\/{2,}/g, '/');
+  // path.replace(/\/{2,}/g, '/');
+  return path.replace(/(\\|\/){2,}/g, '/');
 }
 
 /** 在文章渲染完成后执行 */
