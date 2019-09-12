@@ -52,10 +52,10 @@ filter_image:
 > Hexo配置文件
 
 ```yaml
-root: /testPath
+root: /testPath/
 ```
 
-> 生成后的图片路径为```/testPath/img/test.jpg```
+> 生成后的图片路径为`/testPath/img/test.jpg`
 
 
 ## 关于我
