@@ -19,8 +19,10 @@ let config = _.defaultsDeep({}, hexo.config.filter_image, hexo.theme.config.filt
 
 /** 获取图片绝对路径 */
 function urlForHelper(path = '/') {
-  if (path[0] === '#' || path.startsWith('//') || path.startsWith(blogRoot) || ('/'+path).startsWith(blogRoot)) {
+  if (path[0] === '#' || path.startsWith('//') || path.startsWith(blogRoot)) {
     return path;
+  } else if (('/'+path).startsWith(blogRoot)) {
+    return '/'+path;
   }
 
   // Prepend path
